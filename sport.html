@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- This creates a link to the home page. -->
+<div class="topnav">
+  <a class="active" href="ivanhtmlproject.html"><i class="fa fa-fw fa-home"></i> Home</a>
+
+<html>
+        <body>
+<!-- This whoole code allows for the java script image to scroll through my selected images. -->
+                        <style type="text/css">
+#container {
+  overflow: hidden;
+  width: 800px;
+  height: 230px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:150px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 200%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+
+
+
+        </head>
+                <body>
+
+                        <div id="container"> <span class="title">Sport</span>
+                                <ul id="imgs">
+                                <li><img src="DouglasHall.jpg" alt="" /></li>
+                                <li><img src="Rugby.jpg" alt="" /></li>
+                                <li><img src="Pres1.png" alt="" /></li>
+                                <li><img src="Swimming.jpg" alt="" /></li>
+                                <li><img src="Munster.jpg" alt="" /></li>
+                                <li><img src="Irish.jpg" alt="" /></li>
+                                <li><img src="Man.png" alt="" /></li>
+                                </ul>
+                        <span class="title"></span> </div>
+                <div id="controler"> </div>
+                <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+                <script type="text/javascript" src="ImageScroll.js"></script>
+                <script type="text/javascript">
+
+          $('#imgs').imageScroll({
+    orientation:"left",
+    speed:600,
+    interval:1000,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+      $(this).next("span").text("CallbackDisplay: hidden "+ordinal+"!");
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+<!-- This whole section deals with sport and what kind of sport i am interested in. -->
+</script>
+    <title>Sport</title>
+	  </head>
+<!-- All the headers are assigned to the center and the rest of thhe text is on the left hand side. -->
+   <body style="text-align:center">
+      <h1 style="color:black;">Sport</h1><hr>
+	  
+	  </body>
+	  <h1 style="text-align:left">Football</h1>
+	  <img src="DouglasHall.jpg" alt="Douglas Hall Football Club">
+	  <li style="text-align:left;"> More than 240 million people around the world play soccer regularly according to the Federation Internationale de Football Association (FIFA). The game has evolved from the sport of kicking a rudimentary animal-hide ball around into the World Cup sport it is today.
+
+Records trace the history of soccer back more than 2,000 years ago to ancient China. Greece, Rome, and parts of Central America also claim to have started the sport; but it was England that transitioned soccer, or what the British and many other people around the world call “football,” into the game we know today. The English are credited with recording the first uniform rules for the sport, including forbidding tripping opponents and touching the ball with hands.
+
+As the sport developed, more rules were implemented and more historical landmarks were set. For example, the penalty kick was introduced in 1891. FIFA became a member of the International Football Association Board of Great Britain in 1913. Red and yellow cards were introduced during the 1970 World Cup finals. More recent major changes include goalkeepers being banned from handling deliberate back passes in 1992 and tackles from behind becoming red-card penalties in 1998.
+
+Some of the top players throughout history include Pele (Edson Arantes Do Nascimento) from Brazil, who scored six goals in the 1958 World Cup and helped Brazil claim its first title; Lev Yashin from Russia, who claimed to have saved more than 150 penalty shots during his outstanding goal-tending career; and Marco Van Basten from Holland, who won several very prestigious soccer awards during one year alone. There are many debates over who the greatest soccer players are of all time; but players like Zinedine Zidane, Diego Maradona, Michel Platini, Lionel Messi, and Roberto Baggio make almost every list.</li>
+      <li style="text-align:left;"> I used to play for my local club Douglas Hall.Douglas Hall was founded in 1971. This was where i learned to play soccer.It is the place where i learned to play soccer.
+       <p style="text-align:left"> My Favourite Club Is Man United.</p>
+	   <li style="text-align:left;">Manchester United Football Club was founded back in 1878 under the name Newton Heath LYR F.C. In 1902, the club's name was changed to Manchester United and the rest is history.No team has more English league titles than United, who surpassed Liverpool after securing their 19th last season. But titles cannot be won without great players, and United have had their fair share of talented footballers.</li>
+	   
+	 </body>
+      <h1 style="text-align:left">Rugby</h1>
+      <img src="Rugby.jpg" alt="Irish Rugby">
+	  <li style="text-align:left;">Rugby is said to have originated at Rugby School in Warwickshire, England, in 1823 when during a game of football, William Webb Ellis decided to pick up a ball and go with it. Although there is very little evidence to support this theory, the Rugby World Cup Trophy is now named after William Webb Ellis.
+In 1863 a collection of boarding schools and clubs decided upon a rule set and 1871 Rugby Football Union was officially formed. That same year, the first ever international match was played between England and Scotland with Scotland taking the win 1-0.
+In 1900, rugby union was introduced to the Summer Olympics by Pierre de Coubertin, who had previously refereed the first French domestic championship as well as France's first international game. France, Germany and Great Britain all entered teams for the oplympics, and France won gold by defeating both opponents.
+Rugby actually drew the largest crowd at that particular games - it was next played at the 1908 games in London, with Australia winning, by defeating Great Britain.
+Even though rugby drew some of the biggest crowds at the games, it was eventually dropped in 1924.
+
+By 1908 all three major Southern Hemisphere nations (New Zealand, Australia and South Africa) had formed teams and sent them on international trips to play against the Northern Hemisphere nations. As a side fact, the first time the Haka was performed by New Zealand prior to a match was in 1905, which the Welsh responded to by having Teddy Morgan sing the Welsh national anthem. Soon enough the crowd joined in, which was the first time a national anthem was sung prior to a sporting event.
+The first Rugby World Cup was played in 1987 and was held in Australia and New Zealand - both semi-finals were played in Australia while the final was played in New Zealand, with the All Blacks defeating France in the final.</li>
+     <p style="text-align:left"> My favourite club is Munster and i also support Irish Rugby
+	 <li style="text-align:left;">Munster Rugby (Irish: Rugbaí Mumhan) is one of the four professional provincial rugby teams from the island of Ireland. They compete in the Pro14 and the European Rugby Champions Cup. The team represents the IRFU Munster Branch, which is one of four primary branches of the IRFU, and is responsible for rugby union throughout the geographical Irish province of Munster.[4] The team motto is "To the brave and faithful, nothing is impossible." This is derived from the motto of the MacCarthy clan – "Forti et Fideli nihil difficile". Their main home ground is Thomond Park, Limerick, though some games are played at Irish Independent Park, Cork.</li>
+     <li style="text-align:left;">The Irish Rugby Football Union (IRFU) (Irish: Cumann Rugbaí na hÉireann) is the body managing rugby union in the island of Ireland (both Republic of Ireland and Northern Ireland). The IRFU has its head office at 10/12 Lansdowne Road and home ground at Aviva Stadium, where adult men's Irish rugby union international matches are played. In addition, the Union also owns the Ravenhill Stadium in Belfast, Thomond Park in Limerick and a number of grounds in provincial areas that have been rented to clubs.</li>
+     
+	 </body>
+      <h1 style="text-align:left">Swimming</h1>
+	    <img src="Swimming.jpg" alt="Swimming">
+		<li style="text-align:left;">Swimming is an individual or team racing sport that requires the use of one's entire body to move through water. The sport takes place in pools or open water (e.g., in a sea or lake). Competitive swimming is one of the most popular Olympic sports, with varied distance events in butterfly, backstroke, breaststroke, freestyle, and individual medley. In addition to these individual events, four swimmers can take part in either a freestyle or medley relay. A medley relay consists of four swimmers who will each swim a different stroke, ordered as backstroke, breaststroke, butterfly and freestyle. Swimming each stroke requires a set of specific techniques; in competition, there are distinct regulations concerning the acceptable form for each individual stroke. There are also regulations on what types of swimsuits, caps, jewelry and injury tape that are allowed at competitions. Although it is possible for competitive swimmers to incur several injuries from the sport, such as tendinitis in the shoulders or knees, there are also multiple health benefits associated with the sport.</li>
+	     <p style="text-align:left"> I started swimming when i was five years old and still do this to this day.</p>
+        </body>
+		<!-- Each paragrapgh gives a breif detail of the sport and i also tell my expeirence with the sport. -->
+</html>
